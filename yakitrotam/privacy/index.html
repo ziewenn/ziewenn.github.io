@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>YakıtRotam Gizlilik Politikası</title>
+<meta name="description" content="YakıtRotam Android uygulamasının gizlilik politikası.">
+<link rel="icon" href="../icon.png">
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="../icon.png" alt="">
+    <div>
+      <h1>Gizlilik Politikası</h1>
+      <p style="margin:0">YakıtRotam · Yürürlük tarihi: 16 Eylül 2026</p>
+    </div>
+  </header>
+
+  <div class="lang"><strong>Türkçe</strong> <a href="#en">English</a></div>
+
+  <p>Bu politika, YakıtRotam Android uygulamasının ("uygulama") hangi verileri nasıl
+  kullandığını açıklar. Uygulamanın bir hesap sistemi, kendine ait bir sunucusu veya
+  analiz aracı yoktur. Girdiğiniz bilgiler bizim tarafımızdan toplanmaz, saklanmaz ve
+  satılmaz. Rota, istasyon, fiyat ve adres bilgisi almak için aşağıda listelenen
+  üçüncü taraf servislere doğrudan cihazınızdan istek gönderilir.</p>
+
+  <h2>1. Konum</h2>
+  <p>Konum izni yalnızca "Konumum" düğmesine bastığınızda kalkış noktanızı belirlemek
+  için kullanılır. Uygulama arka planda konum almaz. İzni vermeden de kalkış noktasını
+  adres aramasıyla seçebilirsiniz.</p>
+  <p>Konumunuz alındığında koordinatlar şu amaçlarla ilgili servislere gönderilir:
+  adresi okunur hale getirmek (Nominatim), sürüş rotasını çizmek (OSRM) ve rota
+  çevresindeki akaryakıt istasyonlarını bulmak (Overpass). Bu servisler isteği
+  karşılamak için IP adresinizi görebilir.</p>
+
+  <h2>2. Adres araması ve rota</h2>
+  <p>Arama kutusuna yazdığınız metin öneri almak için Photon servisine gönderilir.
+  Seçtiğiniz kalkış ve varış noktalarının koordinatları rota için OSRM'e, güzergah
+  koridoru istasyon araması için Overpass'a gönderilir. Pompa fiyatları için Opet'in
+  fiyat servisine yalnızca il bilgisi gönderilir.</p>
+
+  <h2>3. Cihazda saklanan bilgiler</h2>
+  <p>Her açılışta yeniden girmemeniz için şu bilgiler yalnızca cihazınızda saklanır:
+  depo hacmi, ortalama tüketim, yakıt türü, depo doluluğu, marka tercihi, son kalkış
+  ve varış noktası ile son seçtiğiniz en fazla 8 yer. Bu bilgiler hiçbir sunucuya
+  yedeklenmez; uygulamayı kaldırdığınızda veya Ayarlar &gt; Uygulamalar &gt; YakıtRotam &gt;
+  Depolama &gt; Verileri temizle yoluyla silinir.</p>
+
+  <h2>4. Reklamlar</h2>
+  <p>Uygulama ücretsizdir ve Google AdMob ile reklam gösterir. AdMob, reklam sunmak,
+  reklam performansını ölçmek ve kötüye kullanımı önlemek için cihazınızın reklam
+  kimliğini, IP adresinizi (yaklaşık konum çıkarımı dahil), cihaz ve uygulama
+  bilgilerini ve reklamlarla etkileşimlerinizi toplayabilir.</p>
+  <p>Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre'deki kullanıcılardan reklam
+  yüklenmeden önce Google'ın onay formuyla izin istenir. Reklam kimliğinizi Android
+  Ayarlar &gt; Gizlilik &gt; Reklamlar bölümünden sıfırlayabilir veya silebilirsiniz.</p>
+  <p>Google'ın verileri nasıl kullandığı:
+  <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+  <h2>5. Harita uygulamasına aktarma</h2>
+  <p>"Haritalarda başlat" düğmesi, kalkış, varış ve durak koordinatlarını cihazınızdaki
+  harita uygulamasına (ör. Google Haritalar) aktarır. Bu noktadan sonra ilgili harita
+  uygulamasının gizlilik politikası geçerlidir.</p>
+
+  <h2>6. Üçüncü taraf servisler</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Servis</th><th>Amaç</th><th>Gönderilen veri</th></tr>
+    <tr><td><a href="https://admob.google.com/">Google AdMob</a></td><td>Reklam</td><td>Reklam kimliği, IP, cihaz ve reklam etkileşim bilgisi</td></tr>
+    <tr><td><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Nominatim</a></td><td>Koordinattan adres</td><td>Konum koordinatı</td></tr>
+    <tr><td><a href="https://photon.komoot.io/">Photon (komoot)</a></td><td>Adres araması</td><td>Arama metni</td></tr>
+    <tr><td><a href="https://project-osrm.org/">OSRM</a></td><td>Sürüş rotası</td><td>Kalkış ve varış koordinatı</td></tr>
+    <tr><td><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a></td><td>İstasyon araması</td><td>Güzergah çevresindeki alan sınırları</td></tr>
+    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Pompa fiyatları</td><td>İl kodu</td></tr>
+  </table>
+  </div>
+
+  <h2>7. Çocuklar</h2>
+  <p>Uygulama 13 yaşın altındaki çocuklara yönelik değildir ve bilerek çocuklardan veri
+  toplamaz.</p>
+
+  <h2>8. Güvenlik</h2>
+  <p>Uygulamanın yaptığı tüm ağ istekleri HTTPS ile şifrelenir.</p>
+
+  <h2>9. Değişiklikler ve iletişim</h2>
+  <p>Bu politika güncellenirse yeni sürüm bu sayfada, yürürlük tarihiyle birlikte
+  yayınlanır. Sorularınız için:
+  <a href="https://github.com/ziewenn/yakitrotam/issues">github.com/ziewenn/yakitrotam/issues</a></p>
+
+  <hr style="border:none;border-top:1px solid var(--border);margin:56px 0" id="en">
+
+  <h1>Privacy Policy</h1>
+  <p>YakıtRotam · Effective date: 16 September 2026</p>
+
+  <p>This policy explains what data the YakıtRotam Android app ("the app") uses and how.
+  The app has no account system, no server of its own and no analytics. We do not
+  collect, store or sell what you enter. To get routes, stations, prices and addresses,
+  the app sends requests directly from your device to the third-party services listed
+  below.</p>
+
+  <h2>1. Location</h2>
+  <p>Location permission is used only when you tap "Konumum" (My location), to set your
+  starting point. The app never accesses location in the background. You can also pick
+  a starting point through address search without granting the permission.</p>
+  <p>When your location is read, the coordinates are sent to turn them into an address
+  (Nominatim), to calculate the driving route (OSRM) and to find fuel stations along the
+  route (Overpass). These services can see your IP address while handling the request.</p>
+
+  <h2>2. Address search and routing</h2>
+  <p>Text typed into the search box is sent to Photon to get suggestions. Coordinates of
+  the selected origin and destination are sent to OSRM for routing and to Overpass for
+  station lookup along the route corridor. Only the province is sent to Opet's price
+  service to fetch pump prices.</p>
+
+  <h2>3. Data stored on your device</h2>
+  <p>So you do not have to re-enter them, the following are stored on your device only:
+  tank size, average consumption, fuel type, fill level, brand preference, the last
+  origin and destination, and up to 8 recently picked places. They are never backed up
+  to a server and are removed when you uninstall the app or clear its data under
+  Settings &gt; Apps &gt; YakıtRotam &gt; Storage &gt; Clear data.</p>
+
+  <h2>4. Advertising</h2>
+  <p>The app is free and shows ads through Google AdMob. To serve and measure ads and to
+  prevent fraud, AdMob may collect your device's advertising ID, IP address (including
+  approximate location derived from it), device and app information, and your
+  interactions with ads.</p>
+  <p>Users in the European Economic Area, the United Kingdom and Switzerland are asked
+  for consent through Google's consent form before any ad is loaded. You can reset or
+  delete your advertising ID under Android Settings &gt; Privacy &gt; Ads.</p>
+  <p>How Google uses data:
+  <a href="https://policies.google.com/technologies/partner-sites">policies.google.com/technologies/partner-sites</a></p>
+
+  <h2>5. Handing off to a maps app</h2>
+  <p>The "Haritalarda başlat" (Start in Maps) button passes the origin, destination and
+  stop coordinates to a maps app on your device, such as Google Maps. From that point
+  on, that app's privacy policy applies.</p>
+
+  <h2>6. Third-party services</h2>
+  <div class="table-wrap">
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>Data sent</th></tr>
+    <tr><td><a href="https://admob.google.com/">Google AdMob</a></td><td>Advertising</td><td>Advertising ID, IP, device and ad interaction data</td></tr>
+    <tr><td><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap Nominatim</a></td><td>Reverse geocoding</td><td>Location coordinates</td></tr>
+    <tr><td><a href="https://photon.komoot.io/">Photon (komoot)</a></td><td>Address search</td><td>Search text</td></tr>
+    <tr><td><a href="https://project-osrm.org/">OSRM</a></td><td>Driving route</td><td>Origin and destination coordinates</td></tr>
+    <tr><td><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a></td><td>Station lookup</td><td>Bounding boxes around the route</td></tr>
+    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Pump prices</td><td>Province code</td></tr>
+  </table>
+  </div>
+
+  <h2>7. Children</h2>
+  <p>The app is not directed at children under 13 and does not knowingly collect data
+  from children.</p>
+
+  <h2>8. Security</h2>
+  <p>All network requests made by the app are encrypted with HTTPS.</p>
+
+  <h2>9. Changes and contact</h2>
+  <p>If this policy changes, the new version will be published on this page with its
+  effective date. Questions:
+  <a href="https://github.com/ziewenn/yakitrotam/issues">github.com/ziewenn/yakitrotam/issues</a></p>
+
+  <footer>Map and station data © OpenStreetMap contributors.</footer>
+</main>
+</body>
+</html>
