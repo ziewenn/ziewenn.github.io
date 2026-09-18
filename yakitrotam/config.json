@@ -1,0 +1,11 @@
+{
+  "osrm": "https://router.project-osrm.org",
+  "overpass": [
+    "https://overpass-api.de/api/interpreter",
+    "https://overpass.kumi.systems/api/interpreter",
+    "https://maps.mail.ru/osm/tools/overpass/api/interpreter"
+  ],
+  "nominatim": "https://nominatim.openstreetmap.org",
+  "photon": "https://photon.komoot.io",
+  "mapStyle": "https://tiles.openfreemap.org/styles/dark"
+}

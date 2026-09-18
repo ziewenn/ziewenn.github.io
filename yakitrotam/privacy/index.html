@@ -39,7 +39,17 @@
   <p>Arama kutusuna yazdığınız metin öneri almak için Photon servisine gönderilir.
   Seçtiğiniz kalkış ve varış noktalarının koordinatları rota için OSRM'e, güzergah
   koridoru istasyon araması için Overpass'a gönderilir. Pompa fiyatları için Opet'in
-  fiyat servisine yalnızca il bilgisi gönderilir.</p>
+  fiyat servisinden ve Petrol Ofisi'nin fiyat sayfasından tüm illerin listesi indirilir;
+  bu isteklerde konumunuz ya da iliniz gönderilmez.</p>
+
+  <p>Fiyat satırındaki zil ile "fiyat değişince haber ver" özelliğini açarsanız uygulama
+  aynı fiyat listesini arka planda günde birkaç kez indirir, seçtiğiniz yakıt türünün
+  kalkış ilinizdeki fiyatını telefonunuzda saklanan son değerle karşılaştırır ve
+  değiştiyse bildirim gösterir. Karşılaştırma cihazınızda yapılır; bunun için ek bir veri
+  gönderilmez. Özellik varsayılan olarak kapalıdır ve aynı zilden kapatılabilir.</p>
+
+  <p>Uygulama açılışta kullandığı sunucu adreslerini içeren küçük bir ayar dosyasını
+  GitHub Pages üzerindeki bu siteden indirir. Bu istekte kişisel veri gönderilmez.</p>
 
   <p>Uygulamadaki haritalar (rota haritası ve "Haritadan seç") OpenFreeMap'ten harita
   karoları indirir. Bu istekler görüntülenen harita bölgesini ve IP adresinizi içerir.
@@ -80,7 +90,9 @@
     <tr><td><a href="https://photon.komoot.io/">Photon (komoot)</a></td><td>Adres araması</td><td>Arama metni</td></tr>
     <tr><td><a href="https://project-osrm.org/">OSRM</a></td><td>Sürüş rotası</td><td>Kalkış ve varış koordinatı</td></tr>
     <tr><td><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a></td><td>İstasyon araması</td><td>Güzergah çevresindeki alan sınırları</td></tr>
-    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Pompa fiyatları</td><td>İl kodu</td></tr>
+    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Benzin ve motorin fiyatları</td><td>Yok (yalnızca IP adresi)</td></tr>
+    <tr><td><a href="https://www.petrolofisi.com.tr/">Petrol Ofisi</a></td><td>Otogaz fiyatları</td><td>Yok (yalnızca IP adresi)</td></tr>
+    <tr><td><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages</a></td><td>Sunucu adresleri ayar dosyası</td><td>Yok (yalnızca IP adresi)</td></tr>
     <tr><td><a href="https://openfreemap.org/">OpenFreeMap</a></td><td>Harita görüntüsü</td><td>Görüntülenen harita bölgesi</td></tr>
   </table>
   </div>
@@ -119,8 +131,18 @@
   <h2>2. Address search and routing</h2>
   <p>Text typed into the search box is sent to Photon to get suggestions. Coordinates of
   the selected origin and destination are sent to OSRM for routing and to Overpass for
-  station lookup along the route corridor. Only the province is sent to Opet's price
-  service to fetch pump prices.</p>
+  station lookup along the route corridor. Pump prices are fetched as a list covering all
+  provinces from Opet's price service and Petrol Ofisi's price page; neither your location
+  nor your province is sent with these requests.</p>
+
+  <p>If you turn on price alerts with the bell next to the prices, the app downloads the
+  same price list a few times a day in the background, compares the price of your fuel
+  type in your origin province with the last value stored on your phone, and shows a
+  notification if it changed. The comparison happens on your device and no additional
+  data is sent. The feature is off by default and can be turned off with the same bell.</p>
+
+  <p>On startup the app downloads a small settings file with the server addresses it uses
+  from this site on GitHub Pages. No personal data is sent with this request.</p>
 
   <p>The maps in the app (the route map and "Haritadan seç", pick on map) download map
   tiles from OpenFreeMap. These requests include the map area being viewed and your IP
@@ -161,7 +183,9 @@
     <tr><td><a href="https://photon.komoot.io/">Photon (komoot)</a></td><td>Address search</td><td>Search text</td></tr>
     <tr><td><a href="https://project-osrm.org/">OSRM</a></td><td>Driving route</td><td>Origin and destination coordinates</td></tr>
     <tr><td><a href="https://wiki.openstreetmap.org/wiki/Overpass_API">Overpass API</a></td><td>Station lookup</td><td>Bounding boxes around the route</td></tr>
-    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Pump prices</td><td>Province code</td></tr>
+    <tr><td><a href="https://www.opet.com.tr/">Opet</a></td><td>Petrol and diesel prices</td><td>None (IP address only)</td></tr>
+    <tr><td><a href="https://www.petrolofisi.com.tr/">Petrol Ofisi</a></td><td>Autogas (LPG) prices</td><td>None (IP address only)</td></tr>
+    <tr><td><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Pages</a></td><td>Server address settings file</td><td>None (IP address only)</td></tr>
     <tr><td><a href="https://openfreemap.org/">OpenFreeMap</a></td><td>Map display</td><td>Map area being viewed</td></tr>
   </table>
   </div>
