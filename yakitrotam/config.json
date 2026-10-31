@@ -8,5 +8,7 @@
   "nominatim": "https://nominatim.openstreetmap.org",
   "photon": "https://photon.komoot.io",
   "mapStyle": "https://tiles.openfreemap.org/styles/dark",
-  "stations": "https://ziewenn.github.io/yakitrotam/stations.json"
+  "stations": "https://ziewenn.github.io/yakitrotam/stations.json",
+  "chargers": "https://ziewenn.github.io/yakitrotam/chargers.json",
+  "mapStyleLight": "https://tiles.openfreemap.org/styles/positron"
 }
