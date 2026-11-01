@@ -1,0 +1,65 @@
+# YakıtRotam uygulamasının okuduğu istasyon listelerini yeniler.
+# - chargers.json: EPDK şarj istasyonları, her gün (EPDK kotası saatte ~1 çağrı; günde bir yeter)
+# - stations.json: OpenStreetMap akaryakıt istasyonları, her pazartesi
+# Üretim betikleri uygulama deposundadır (ziewenn/yakitrotam, tools/). Betik hata verirse
+# ya da yeni liste eskisinin %90'ından kısaysa dosya yazılmaz; eski liste yayında kalır.
+name: YakıtRotam istasyon listeleri
+
+on:
+  schedule:
+    - cron: "23 3 * * *"   # her gün 06:23 (TSİ)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yakitrotam-stations
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Üretim betiklerini al
+        uses: actions/checkout@v4
+        with:
+          repository: ziewenn/yakitrotam
+          path: app-src
+          sparse-checkout: tools
+
+      - name: Şarj istasyonları (EPDK)
+        run: |
+          cp yakitrotam/chargers.json /tmp/chargers.json
+          if python3 app-src/tools/build_chargers.py /tmp/chargers.json; then
+            cp /tmp/chargers.json yakitrotam/chargers.json
+          else
+            echo "::warning::EPDK listesi alınamadı ya da doğrulamadan geçmedi; eski liste korunuyor"
+          fi
+
+      - name: Akaryakıt istasyonları (OpenStreetMap, pazartesi)
+        if: github.event_name == 'workflow_dispatch' || github.event.schedule != ''
+        run: |
+          if [ "$(date +%u)" != "1" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Pazartesi değil, atlanıyor"; exit 0
+          fi
+          if python3 app-src/tools/build_stations.py /tmp/stations.json; then
+            cp /tmp/stations.json yakitrotam/stations.json
+          else
+            echo "::warning::Overpass'tan liste alınamadı; eski liste korunuyor"
+          fi
+
+      - name: Değişiklik varsa yayınla
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add yakitrotam/chargers.json yakitrotam/stations.json
+          if git diff --cached --quiet; then
+            echo "Listeler değişmemiş"
+          else
+            git commit -m "YakıtRotam: istasyon listeleri güncellendi ($(date -u +%Y-%m-%d))"
+            git push
+          fi
