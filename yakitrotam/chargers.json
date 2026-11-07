@@ -928,7 +928,7 @@
 {"type":"epdk","id":4752,"lat":40.928302,"lon":29.31007,"tags":{"name":"World Atlantıs Avm","operator":"Voltrun","addr:city":"Pendik","charge:info":"Voltrun · CCS 120 kW ×2 · AC 22 kW · Yeşil enerji","charge:ccs_kw":"120","charge:price":"13.9"}},
 {"type":"epdk","id":4755,"lat":41.065197,"lon":28.972067,"tags":{"name":"Okmeydanı C. B. Gürsoy İş Merkezi","operator":"Pilstop","addr:city":"Şişli","charge:info":"Pilstop · CCS 120 kW ×2 · AC 22 kW ×2","charge:ccs_kw":"120"}},
 {"type":"epdk","id":4763,"lat":41.139046,"lon":27.878306,"tags":{"name":"Masal Park Şarj İstasyonu","operator":"Ecoconnect","addr:city":"Çorlu","charge:info":"Ecoconnect · CCS 60 kW · AC 22 kW","charge:ccs_kw":"60"}},
-{"type":"epdk","id":4810,"lat":41.023763,"lon":29.039193,"tags":{"name":"Zeplin Altunizade servis","operator":"ZEPLİN CAR rental","addr:city":"Üsküdar","charge:info":"ZEPLİN CAR rental · CCS 50 kW ×2","charge:ccs_kw":"50"}},
+{"type":"epdk","id":4810,"lat":41.023763,"lon":29.039193,"tags":{"name":"Zeplin Altunizade servis","operator":"ZEPLİN CAR rental","addr:city":"Üsküdar","charge:info":"ZEPLİN CAR rental · CCS 50 kW","charge:ccs_kw":"50"}},
 {"type":"epdk","id":4813,"lat":40.966566,"lon":38.060399,"tags":{"name":"Zeplin Ordu","operator":"ZEPLİN CAR rental","addr:city":"Gülyalı","charge:info":"ZEPLİN CAR rental · CCS 180 kW ×2 · AC 22 kW ×2","charge:ccs_kw":"180"}},
 {"type":"epdk","id":4830,"lat":40.773172,"lon":30.363673,"tags":{"name":"Dünyagöz Sakarya","operator":"Trugo","addr:city":"Serdivan","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
 {"type":"epdk","id":4834,"lat":37.90908,"lon":32.49937,"tags":{"name":"Bak Bu Gross Market","operator":"Karbon Nötr Konya","addr:city":"Selçuklu","charge:info":"Karbon Nötr Konya · CCS 60 kW · AC 22 kW ×7","charge:ccs_kw":"60"}},
@@ -7987,5 +7987,6 @@
 {"type":"epdk","id":24219,"lat":40.744649,"lon":29.974216,"tags":{"name":"Bölgem Mühendislik","operator":"BÖLGEM mobilite","addr:city":"Başiskele","charge:info":"BÖLGEM mobilite · CCS 120 kW ×2 · AC 22 kW","charge:ccs_kw":"120"}},
 {"type":"epdk","id":24223,"lat":40.736495,"lon":31.568144,"tags":{"name":"Merkez Bolu Kılıçarslan","operator":"Tesla","addr:city":"Bolu","charge:info":"Tesla · CCS 250 kW ×8","charge:ccs_kw":"250"}},
 {"type":"epdk","id":24224,"lat":36.834031,"lon":30.596067,"tags":{"name":"Muratpaşa Antalya Liman","operator":"Tesla","addr:city":"Muratpaşa","charge:info":"Tesla · CCS 250 kW ×8","charge:ccs_kw":"250"}},
-{"type":"epdk","id":24226,"lat":41.071841,"lon":28.621614,"tags":{"name":"West Blocks","operator":"Mıthra Pod","addr:city":"Büyükçekmece","charge:info":"Mıthra Pod · CCS 180 kW ×2 · CCS 120 kW ×2 · AC 22 kW ×2","charge:ccs_kw":"180"}}
+{"type":"epdk","id":24226,"lat":41.071841,"lon":28.621614,"tags":{"name":"West Blocks","operator":"Mıthra Pod","addr:city":"Büyükçekmece","charge:info":"Mıthra Pod · CCS 180 kW ×2 · CCS 120 kW ×2 · AC 22 kW ×2","charge:ccs_kw":"180"}},
+{"type":"epdk","id":24234,"lat":38.3096,"lon":27.1716,"tags":{"name":"İzCar Wash","operator":"varr TM","addr:city":"Gaziemir","charge:info":"varr TM · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180"}}
 ]}
