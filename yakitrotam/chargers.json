@@ -7988,5 +7988,12 @@
 {"type":"epdk","id":24223,"lat":40.736495,"lon":31.568144,"tags":{"name":"Merkez Bolu Kılıçarslan","operator":"Tesla","addr:city":"Bolu","charge:info":"Tesla · CCS 250 kW ×8","charge:ccs_kw":"250"}},
 {"type":"epdk","id":24224,"lat":36.834031,"lon":30.596067,"tags":{"name":"Muratpaşa Antalya Liman","operator":"Tesla","addr:city":"Muratpaşa","charge:info":"Tesla · CCS 250 kW ×8","charge:ccs_kw":"250"}},
 {"type":"epdk","id":24226,"lat":41.071841,"lon":28.621614,"tags":{"name":"West Blocks","operator":"Mıthra Pod","addr:city":"Büyükçekmece","charge:info":"Mıthra Pod · CCS 180 kW ×2 · CCS 120 kW ×2 · AC 22 kW ×2","charge:ccs_kw":"180"}},
-{"type":"epdk","id":24234,"lat":38.3096,"lon":27.1716,"tags":{"name":"İzCar Wash","operator":"varr TM","addr:city":"Gaziemir","charge:info":"varr TM · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180"}}
+{"type":"epdk","id":24234,"lat":38.3096,"lon":27.1716,"tags":{"name":"İzCar Wash","operator":"varr TM","addr:city":"Gaziemir","charge:info":"varr TM · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180"}},
+{"type":"epdk","id":24236,"lat":37.475072,"lon":31.494384,"tags":{"name":"Astorşarj Beyşehir Hasyıl Balatini Dinlenme Tesisi","operator":"Astor","addr:city":"Beyşehir","charge:info":"Astor · CCS 400 kW ×4","charge:ccs_kw":"400","charge:price":"13.99"}},
+{"type":"epdk","id":24237,"lat":40.898721,"lon":29.270973,"tags":{"name":"Duru Park Konutları 2","operator":"Aksa Şarj","addr:city":"Pendik","charge:info":"Aksa Şarj · CCS 80 kW ×2 · Yeşil enerji","charge:ccs_kw":"80","charge:price":"13.99"}},
+{"type":"epdk","id":24238,"lat":41.961571,"lon":33.75161,"tags":{"name":"İnebolu","operator":"Aostechnology","addr:city":"İnebolu","charge:info":"Aostechnology · CCS 220 kW ×3 · CCS 22 kW · AC 22 kW ×2","charge:ccs_kw":"220"}},
+{"type":"epdk","id":24241,"lat":40.868619,"lon":29.280923,"tags":{"name":"Kavakpınar Opet Akaryakıt İstasyonu","operator":"Trugo","addr:city":"Pendik","charge:info":"Trugo · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
+{"type":"epdk","id":24242,"lat":40.934522,"lon":29.215579,"tags":{"name":"Kartal Parma İş Merkezi","operator":"Trugo","addr:city":"Kartal","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
+{"type":"epdk","id":24243,"lat":39.956451,"lon":32.70498,"tags":{"name":"Shell Batıkent","operator":"Trugo","addr:city":"Yenimahalle","charge:info":"Trugo · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
+{"type":"epdk","id":24244,"lat":41.058886,"lon":29.03554,"tags":{"name":"Chesme Lounge Cafe","operator":"Trugo","addr:city":"Beşiktaş","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}}
 ]}
