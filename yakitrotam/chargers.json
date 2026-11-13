@@ -1871,7 +1871,7 @@
 {"type":"epdk","id":8260,"lat":40.692182,"lon":30.28291,"tags":{"name":"Berceste 5 Dinlenme Tesisi - İstanbul Yönü 2","operator":"En Yakıt","addr:city":"Sapanca","charge:info":"En Yakıt · CCS 180 kW ×2","charge:ccs_kw":"180","charge:price":"14.9"}},
 {"type":"epdk","id":8261,"lat":41.117728,"lon":29.064415,"tags":{"name":"Shell Yeniköy İstanbul","operator":"Shell","addr:city":"Sarıyer","charge:info":"Shell · CCS 30 kW","charge:ccs_kw":"30"}},
 {"type":"epdk","id":8262,"lat":39.885452,"lon":32.763713,"tags":{"name":"Shell Bilkent","operator":"Shell","addr:city":"Çankaya","charge:info":"Shell · CCS 50 kW · CHAdeMO 50 kW · AC 22 kW","charge:ccs_kw":"50","charge:chademo_kw":"50"}},
-{"type":"epdk","id":8263,"lat":38.468231,"lon":27.113461,"tags":{"name":"Shell Soğukkuyu","operator":"Shell","addr:city":"Karşıyaka","charge:info":"Shell · CCS 50 kW · CHAdeMO 50 kW · AC 22 kW","charge:ccs_kw":"50","charge:chademo_kw":"50"}},
+{"type":"epdk","id":8263,"lat":38.468392,"lon":27.113461,"tags":{"name":"Shell Soğukkuyu","operator":"Shell","addr:city":"Karşıyaka","charge:info":"Shell · CCS 150 kW ×2","charge:ccs_kw":"150"}},
 {"type":"epdk","id":8267,"lat":41.033079,"lon":29.110774,"tags":{"name":"Shell Küçüksu Caddesi","operator":"Shell","addr:city":"Ümraniye","charge:info":"Shell · CCS 180 kW ×2","charge:ccs_kw":"180"}},
 {"type":"epdk","id":8271,"lat":40.727931,"lon":30.071461,"tags":{"name":"Shell Sapanca OHT Kuzey","operator":"Shell","addr:city":"Kartepe","charge:info":"Shell · CCS 180 kW ×10","charge:ccs_kw":"180"}},
 {"type":"epdk","id":8272,"lat":40.727431,"lon":30.069031,"tags":{"name":"Shell Sapanca OHT Güney","operator":"Shell","addr:city":"Kartepe","charge:info":"Shell · CCS 180 kW ×10","charge:ccs_kw":"180"}},
@@ -3861,7 +3861,6 @@
 {"type":"epdk","id":13848,"lat":38.477773,"lon":27.035745,"tags":{"name":"Avek Karşıyaka - Skoda","operator":"D-Charge","addr:city":"Çiğli","charge:info":"D-Charge · CCS 360 kW ×2 · CCS 120 kW ×4","charge:ccs_kw":"360","charge:price":"14.9"}},
 {"type":"epdk","id":13850,"lat":38.47765,"lon":27.035696,"tags":{"name":"Avek Karşıyaka - Volkswagen","operator":"D-Charge","addr:city":"Çiğli","charge:info":"D-Charge · CCS 180 kW ×2 · AC 22 kW","charge:ccs_kw":"180","charge:price":"14.9"}},
 {"type":"epdk","id":13863,"lat":38.404955,"lon":33.978656,"tags":{"name":"Öztürk Aksaray - Volkswagen","operator":"D-Charge","addr:city":"Aksaray","charge:info":"D-Charge · CCS 180 kW ×2 · AC 22 kW","charge:ccs_kw":"180","charge:price":"14.9"}},
-{"type":"epdk","id":13867,"lat":41.099706,"lon":40.736361,"tags":{"name":"Hüsrev Lokantası","operator":"Trugo","addr:city":"Çayeli","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
 {"type":"epdk","id":13871,"lat":41.234811,"lon":28.888464,"tags":{"name":"Bi Mola Odayeri","operator":"Trugo","addr:city":"Eyüpsultan","charge:info":"Trugo · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
 {"type":"epdk","id":13872,"lat":40.964091,"lon":28.800688,"tags":{"name":"Aqua Florya Akvaryum","operator":"Trugo","addr:city":"Bakırköy","charge:info":"Trugo · CCS 180 kW ×4 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
 {"type":"epdk","id":13873,"lat":41.6197,"lon":26.6326,"tags":{"name":"Edirne Ramada Otel","operator":"Trugo","addr:city":"Edirne","charge:info":"Trugo · CCS 180 kW ×2 · AC 22 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
@@ -7047,7 +7046,7 @@
 {"type":"epdk","id":21836,"lat":37.417445,"lon":27.417096,"tags":{"name":"Maxeria Blue Didyma Hotel","operator":"varr TM","addr:city":"Didim","charge:info":"varr TM · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120"}},
 {"type":"epdk","id":21839,"lat":36.585661,"lon":31.871997,"tags":{"name":"Hedef Resort & Spa","operator":"Ovolt","addr:city":"Alanya","charge:info":"Ovolt · CCS 160 kW ×2 · AC 22 kW · Yeşil enerji","charge:ccs_kw":"160","charge:price":"14.49"}},
 {"type":"epdk","id":21851,"lat":39.792843,"lon":32.395708,"tags":{"name":"Anadolu Osb Dc - 2","operator":"Epsıs","addr:city":"Sincan","charge:info":"Epsıs · CCS 160 kW ×2","charge:ccs_kw":"160"}},
-{"type":"epdk","id":21861,"lat":41.080971,"lon":28.694651,"tags":{"name":"Zeplin Vaditepe","operator":"ZEPLİN CAR rental","addr:city":"Başakşehir","charge:info":"ZEPLİN CAR rental · CCS 160 kW ×2","charge:ccs_kw":"160"}},
+{"type":"epdk","id":21861,"lat":41.080971,"lon":28.694651,"tags":{"name":"Zeplin Vaditepe","operator":"ZEPLİN CAR rental","addr:city":"Başakşehir","charge:info":"ZEPLİN CAR rental · CCS 160 kW ×2 · AC 22 kW ×5","charge:ccs_kw":"160"}},
 {"type":"epdk","id":21868,"lat":38.7218,"lon":35.5138,"tags":{"name":"Köşk Atayolu Caddesi","operator":"K-Şarj","addr:city":"Melikgazi","charge:info":"K-Şarj · CCS 30 kW ×2 · AC 22 kW · AC 11 kW ×2","charge:ccs_kw":"30"}},
 {"type":"epdk","id":21870,"lat":37.848781,"lon":27.781522,"tags":{"name":"Lena Aydın - Skoda","operator":"D-Charge","addr:city":"Efeler","charge:info":"D-Charge · CCS 120 kW ×2","charge:ccs_kw":"120","charge:price":"14.9"}},
 {"type":"epdk","id":21871,"lat":38.665741,"lon":39.174566,"tags":{"name":"Park Yirmi Üç AVM","operator":"Avrupa Şarj","addr:city":"Elazığ","charge:info":"Avrupa Şarj · CCS 60 kW","charge:ccs_kw":"60"}},
@@ -8013,5 +8012,7 @@
 {"type":"epdk","id":24280,"lat":38.637431,"lon":27.442656,"tags":{"name":"VoltUp Antoto Manisa Plaza","operator":"Voltup","addr:city":"Şehzadeler","charge:info":"Voltup · CCS 180 kW ×2","charge:ccs_kw":"180"}},
 {"type":"epdk","id":24282,"lat":40.67355,"lon":29.483569,"tags":{"name":"Subaşı Belediye Başkanlığı","operator":"BÖLGEM mobilite","addr:city":"Altınova","charge:info":"BÖLGEM mobilite · CCS 120 kW ×2 · AC 11 kW ×3","charge:ccs_kw":"120"}},
 {"type":"epdk","id":24283,"lat":40.211714,"lon":28.919018,"tags":{"name":"Özdilek Park Bursa Nilüfer AVM","operator":"Gıoev","addr:city":"Nilüfer","charge:info":"Gıoev · CCS 300 kW ×2","charge:ccs_kw":"300"}},
-{"type":"epdk","id":24284,"lat":37.598735,"lon":36.860957,"tags":{"name":"Has Bahçe Konutları- DC","operator":"İ-Şarj","addr:city":"Onikişubat","charge:info":"İ-Şarj · CCS 30 kW ×2 · Yeşil enerji","charge:ccs_kw":"30"}}
+{"type":"epdk","id":24284,"lat":37.598735,"lon":36.860957,"tags":{"name":"Has Bahçe Konutları- DC","operator":"İ-Şarj","addr:city":"Onikişubat","charge:info":"İ-Şarj · CCS 30 kW ×2 · Yeşil enerji","charge:ccs_kw":"30"}},
+{"type":"epdk","id":24286,"lat":41.037404,"lon":28.783959,"tags":{"name":"Adres Atakent Evleri Sitesi Dc","operator":"Mks-Şarj","addr:city":"Küçükçekmece","charge:info":"Mks-Şarj · CCS 120 kW ×2","charge:ccs_kw":"120"}},
+{"type":"epdk","id":24287,"lat":41.285321,"lon":36.345482,"tags":{"name":"Sevgi Cafe","operator":"varr TM","addr:city":"İlkadım","charge:info":"varr TM · CCS 120 kW ×2 · AC 22 kW · AC 11 kW · Yeşil enerji","charge:ccs_kw":"120"}}
 ]}
