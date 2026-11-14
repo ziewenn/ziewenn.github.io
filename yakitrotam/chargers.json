@@ -8014,5 +8014,8 @@
 {"type":"epdk","id":24283,"lat":40.211714,"lon":28.919018,"tags":{"name":"Özdilek Park Bursa Nilüfer AVM","operator":"Gıoev","addr:city":"Nilüfer","charge:info":"Gıoev · CCS 300 kW ×2","charge:ccs_kw":"300"}},
 {"type":"epdk","id":24284,"lat":37.598735,"lon":36.860957,"tags":{"name":"Has Bahçe Konutları- DC","operator":"İ-Şarj","addr:city":"Onikişubat","charge:info":"İ-Şarj · CCS 30 kW ×2 · Yeşil enerji","charge:ccs_kw":"30"}},
 {"type":"epdk","id":24286,"lat":41.037404,"lon":28.783959,"tags":{"name":"Adres Atakent Evleri Sitesi Dc","operator":"Mks-Şarj","addr:city":"Küçükçekmece","charge:info":"Mks-Şarj · CCS 120 kW ×2","charge:ccs_kw":"120"}},
-{"type":"epdk","id":24287,"lat":41.285321,"lon":36.345482,"tags":{"name":"Sevgi Cafe","operator":"varr TM","addr:city":"İlkadım","charge:info":"varr TM · CCS 120 kW ×2 · AC 22 kW · AC 11 kW · Yeşil enerji","charge:ccs_kw":"120"}}
+{"type":"epdk","id":24287,"lat":41.285321,"lon":36.345482,"tags":{"name":"Sevgi Cafe","operator":"varr TM","addr:city":"İlkadım","charge:info":"varr TM · CCS 120 kW ×2 · AC 22 kW · AC 11 kW · Yeşil enerji","charge:ccs_kw":"120"}},
+{"type":"epdk","id":24296,"lat":41.211685,"lon":32.654924,"tags":{"name":"Tripy - Cami Yanı","operator":"Tripy","addr:city":"Karabük","charge:info":"Tripy · CCS 60 kW ×2","charge:ccs_kw":"60"}},
+{"type":"epdk","id":24299,"lat":40.763132,"lon":29.964338,"tags":{"name":"Zeplin İlayda Bilişim","operator":"ZEPLİN CAR rental","addr:city":"İzmit","charge:info":"ZEPLİN CAR rental · CCS 60 kW ×2","charge:ccs_kw":"60"}},
+{"type":"epdk","id":24300,"lat":40.91538,"lon":29.147257,"tags":{"name":"Zeplin Dragos Center","operator":"ZEPLİN CAR rental","addr:city":"Maltepe","charge:info":"ZEPLİN CAR rental · CCS 160 kW ×2","charge:ccs_kw":"160"}}
 ]}
