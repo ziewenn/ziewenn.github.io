@@ -8040,5 +8040,8 @@
 {"type":"epdk","id":24333,"lat":41.1161,"lon":37.3112,"tags":{"name":"Ordu BBLD Ünye Terminal Otopark","operator":"Trugo","addr:city":"Ünye","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
 {"type":"epdk","id":24334,"lat":36.909503,"lon":30.766697,"tags":{"name":"Mercedes-Benz Mer-Ser Otomotiv","operator":"Trugo","addr:city":"Kepez","charge:info":"Trugo · CCS 120 kW ×2 · AC 22 kW · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
 {"type":"epdk","id":24335,"lat":40.9708,"lon":37.9204,"tags":{"name":"Ordu BBLD Karşıyaka Tenis Kortu","operator":"Trugo","addr:city":"Altınordu","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
-{"type":"epdk","id":24337,"lat":37.6067,"lon":37.7704,"tags":{"name":"Astorşarj Gölbaşı Mhy Akaryakıt","operator":"Astor","addr:city":"Gölbaşı","charge:info":"Astor · CCS 120 kW ×2","charge:ccs_kw":"120","charge:price":"13.99"}}
+{"type":"epdk","id":24337,"lat":37.6067,"lon":37.7704,"tags":{"name":"Astorşarj Gölbaşı Mhy Akaryakıt","operator":"Astor","addr:city":"Gölbaşı","charge:info":"Astor · CCS 120 kW ×2","charge:ccs_kw":"120","charge:price":"13.99"}},
+{"type":"epdk","id":24351,"lat":40.777146,"lon":29.817615,"tags":{"name":"Vadi Evleri 2","operator":"Gotedygo","addr:city":"Derince","charge:info":"Gotedygo · CCS 120 kW ×2","charge:ccs_kw":"120"}},
+{"type":"epdk","id":24353,"lat":40.985751,"lon":29.20078,"tags":{"name":"PO Sancaktepe-Sancak","operator":"5 Şarj","addr:city":"Sancaktepe","charge:info":"5 Şarj · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"15.9"}},
+{"type":"epdk","id":24354,"lat":40.875406,"lon":26.563562,"tags":{"name":"Sümer Akaryakıt","operator":"Gıoev","addr:city":"Keşan","charge:info":"Gıoev · CCS 180 kW ×2","charge:ccs_kw":"180"}}
 ]}
