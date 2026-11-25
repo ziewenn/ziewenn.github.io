@@ -6583,7 +6583,7 @@
 {"type":"epdk","id":20564,"lat":40.88586,"lon":39.29019,"tags":{"name":"Çağdaş Şarj Tonya","operator":"Powerşarj","addr:city":"Tonya","charge:info":"Powerşarj · CCS 80 kW ×2 · AC 22 kW ×3","charge:ccs_kw":"80"}},
 {"type":"epdk","id":20569,"lat":39.875387,"lon":32.65179,"tags":{"name":"Astorşarj Elya Center","operator":"Astor","addr:city":"Çankaya","charge:info":"Astor · CCS 300 kW ×4","charge:ccs_kw":"300","charge:price":"13.99"}},
 {"type":"epdk","id":20570,"lat":41.139695,"lon":27.868024,"tags":{"name":"Astorşarj Çorlu Hyundai Atmaş","operator":"Astor","addr:city":"Çorlu","charge:info":"Astor · CCS 300 kW ×4","charge:ccs_kw":"300","charge:price":"13.99"}},
-{"type":"epdk","id":20571,"lat":40.679006,"lon":30.363465,"tags":{"name":"Astorşarj Arifiye Class Akaryakıt","operator":"Astor","addr:city":"Arifiye","charge:info":"Astor · CCS 300 kW ×4 · AC 22 kW","charge:ccs_kw":"300","charge:price":"13.99"}},
+{"type":"epdk","id":20571,"lat":40.679006,"lon":30.363465,"tags":{"name":"Astorşarj Arifiye Class Akaryakıt","operator":"Astor","addr:city":"Arifiye","charge:info":"Astor · CCS 300 kW ×4","charge:ccs_kw":"300","charge:price":"13.99"}},
 {"type":"epdk","id":20572,"lat":38.48437,"lon":27.823482,"tags":{"name":"Astorşarj Turgutlu Muzafferoğulları Akaryakıt","operator":"Astor","addr:city":"Turgutlu","charge:info":"Astor · CCS 300 kW ×2","charge:ccs_kw":"300","charge:price":"13.99"}},
 {"type":"epdk","id":20573,"lat":40.943997,"lon":32.074699,"tags":{"name":"Astorşarj Mengen Şenyürek Akaryakıt","operator":"Astor","addr:city":"Mengen","charge:info":"Astor · CCS 160 kW ×2","charge:ccs_kw":"160","charge:price":"13.99"}},
 {"type":"epdk","id":20580,"lat":36.932083,"lon":30.646812,"tags":{"name":"Astorşarj Kepez Emr Orman","operator":"Astor","addr:city":"Kepez","charge:info":"Astor · CCS 60 kW ×2","charge:ccs_kw":"60","charge:price":"13.99"}},
@@ -7991,7 +7991,7 @@
 {"type":"epdk","id":24234,"lat":38.3096,"lon":27.1716,"tags":{"name":"İzCar Wash","operator":"varr TM","addr:city":"Gaziemir","charge:info":"varr TM · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180"}},
 {"type":"epdk","id":24236,"lat":37.475072,"lon":31.494384,"tags":{"name":"Astorşarj Beyşehir Hasyıl Balatini Dinlenme Tesisi","operator":"Astor","addr:city":"Beyşehir","charge:info":"Astor · CCS 400 kW ×4","charge:ccs_kw":"400","charge:price":"13.99"}},
 {"type":"epdk","id":24237,"lat":40.898721,"lon":29.270973,"tags":{"name":"Duru Park Konutları 2","operator":"Aksa Şarj","addr:city":"Pendik","charge:info":"Aksa Şarj · CCS 80 kW ×2 · Yeşil enerji","charge:ccs_kw":"80","charge:price":"13.99"}},
-{"type":"epdk","id":24238,"lat":41.961571,"lon":33.75161,"tags":{"name":"İnebolu","operator":"Aostechnology","addr:city":"İnebolu","charge:info":"Aostechnology · CCS 220 kW ×3 · CCS 22 kW · AC 22 kW ×2","charge:ccs_kw":"220"}},
+{"type":"epdk","id":24238,"lat":41.961571,"lon":33.75161,"tags":{"name":"İnebolu","operator":"Aostechnology","addr:city":"İnebolu","charge:info":"Aostechnology · CCS 220 kW ×4 · AC 20 kW ×2","charge:ccs_kw":"220"}},
 {"type":"epdk","id":24241,"lat":40.868619,"lon":29.280923,"tags":{"name":"Kavakpınar Opet Akaryakıt İstasyonu","operator":"Trugo","addr:city":"Pendik","charge:info":"Trugo · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
 {"type":"epdk","id":24242,"lat":40.934522,"lon":29.215579,"tags":{"name":"Kartal Parma İş Merkezi","operator":"Trugo","addr:city":"Kartal","charge:info":"Trugo · CCS 120 kW ×2 · Yeşil enerji","charge:ccs_kw":"120","charge:price":"14.98"}},
 {"type":"epdk","id":24243,"lat":39.956451,"lon":32.70498,"tags":{"name":"Shell Batıkent","operator":"Trugo","addr:city":"Yenimahalle","charge:info":"Trugo · CCS 180 kW ×2 · Yeşil enerji","charge:ccs_kw":"180","charge:price":"14.98"}},
@@ -8062,5 +8062,7 @@
 {"type":"epdk","id":24394,"lat":38.5783,"lon":34.7277,"tags":{"name":"İşbilir Petrol Akaryakıt İstasyonu","operator":"Trugo","addr:city":"Nevşehir","charge:info":"Trugo · CCS 80 kW ×2 · Yeşil enerji","charge:ccs_kw":"80","charge:price":"14.98"}},
 {"type":"epdk","id":24403,"lat":38.5297,"lon":35.5259,"tags":{"name":"Erciyes Dağı Magna Apex","operator":"K-Şarj","addr:city":"Melikgazi","charge:info":"K-Şarj · CCS 240 kW ×2 · CCS 30 kW ×2","charge:ccs_kw":"240"}},
 {"type":"epdk","id":24405,"lat":37.314159,"lon":40.728399,"tags":{"name":"Mardin Antik Kent AVM","operator":"Aostechnology","addr:city":"Mardin","charge:info":"Aostechnology · CCS 180 kW ×2","charge:ccs_kw":"180"}},
-{"type":"epdk","id":24406,"lat":37.992681,"lon":32.598096,"tags":{"name":"Astorşarj Selçuklu Bez-Bil Akaryakıt","operator":"Astor","addr:city":"Selçuklu","charge:info":"Astor · CCS 180 kW ×2","charge:ccs_kw":"180","charge:price":"13.99"}}
+{"type":"epdk","id":24406,"lat":37.992681,"lon":32.598096,"tags":{"name":"Astorşarj Selçuklu Bez-Bil Akaryakıt","operator":"Astor","addr:city":"Selçuklu","charge:info":"Astor · CCS 180 kW ×2","charge:ccs_kw":"180","charge:price":"13.99"}},
+{"type":"epdk","id":24410,"lat":37.9829,"lon":32.723,"tags":{"name":"Shell Konya Orta Konak","operator":"Shell","addr:city":"Karatay","charge:info":"Shell · CCS 320 kW ×2","charge:ccs_kw":"320"}},
+{"type":"epdk","id":24411,"lat":39.044,"lon":31.163,"tags":{"name":"Shell Emirdağ","operator":"Shell","addr:city":"Emirdağ","charge:info":"Shell · CCS 320 kW ×4","charge:ccs_kw":"320"}}
 ]}
