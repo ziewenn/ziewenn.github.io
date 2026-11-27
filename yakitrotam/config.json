@@ -10,5 +10,6 @@
   "mapStyle": "https://tiles.openfreemap.org/styles/dark",
   "stations": "https://ziewenn.github.io/yakitrotam/stations.json",
   "chargers": "https://ziewenn.github.io/yakitrotam/chargers.json",
+  "chargersAc": "https://ziewenn.github.io/yakitrotam/chargers-ac.json",
   "mapStyleLight": "https://tiles.openfreemap.org/styles/positron"
 }
